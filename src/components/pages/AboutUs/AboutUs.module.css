@@ -1,0 +1,12 @@
+.aboutWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: -100px;
+}
+
+.paragraph {
+  margin-top: 30px;
+}
