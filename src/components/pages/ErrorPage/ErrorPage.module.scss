@@ -1,11 +1,13 @@
-$error-color:   #6b232d;
+$error-color: #6b232d;
 
 .wrap {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 200px;
+
   .text {
     color: $error-color;
+    font-size: 50px;
   }
 }

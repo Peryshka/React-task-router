@@ -1,33 +1,39 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import App from './App';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Home from "./components/pages/Home";
 import ErrorPage from "./components/pages/ErrorPage";
 import AboutUs from "./components/pages/AboutUs";
 import SignIn from "./components/pages/SignIn";
+import Subscribe from "./components/pages/Subscribe";
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
-    errorElement: <ErrorPage />,
+    element: <App/>,
+    errorElement: <ErrorPage/>,
     children: [
       {
         path: '/home',
-        element: <Home />,
-        errorElement: <ErrorPage />
+        element: <Home/>,
+        errorElement: <ErrorPage/>
       },
       {
         path: '/about-us',
-        element: <AboutUs />,
-        errorElement: <ErrorPage />
+        element: <AboutUs/>,
+        errorElement: <ErrorPage/>
       },
       {
         path: '/sign-in',
-        element: <SignIn />,
-        errorElement: <ErrorPage />
+        element: <SignIn/>,
+        errorElement: <ErrorPage/>
+      },
+      {
+        path: '/subscribe',
+        element: <Subscribe />,
+        errorElement: <ErrorPage/>
       },
     ]
   }
@@ -41,6 +47,8 @@ root.render(
     </RouterProvider>
   </React.StrictMode>
 );
+
+
 
 
 

@@ -1,5 +1,5 @@
-$fs : 40px;
-$textColor : #2e7e94;
+$fs: 40px;
+$textColor: #2e7e94;
 $pColor: #2d2f30;
 $textSize: 16px;
 
@@ -9,19 +9,44 @@ $textSize: 16px;
   justify-content: center;
   align-items: center;
   margin-left: -100px;
+
   .title {
     color: $textColor;
     font-size: $fs;
   }
+
   .paragraph {
     margin-top: 30px;
     color: $pColor;
     font-size: $textSize;
   }
+  .desc {
+    color: dimgrey;
+  }
+  .add {
+    color: dimgrey;
+  }
+
+
+  .firstWay {
+    @extend .add;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .secondWay {
+    @extend .firstWay;
+  }
+
+  .ili {
+    @extend .add;
+    font-size: 20px;
+  }
 }
 
 .cardWrap {
   margin: 40px 0;
+
   .men {
     background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxFgT72sC8lTTpHHrnQacxkvowf4WqSdIcbw&usqp=CAU') center center/contain no-repeat;
     display: block;
@@ -37,3 +62,6 @@ $textSize: 16px;
     border-radius: 30px;
   }
 }
+
+
+

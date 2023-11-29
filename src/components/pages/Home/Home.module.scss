@@ -1,0 +1,106 @@
+.homeWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  .titleWrap {
+    text-align: center;
+    .title {
+      font-weight: 600;
+      font-size: 35px;
+    }
+  }
+  .bgImg {
+    display: block;
+    background: url('https://t.rightinthebox.com/tights/litb/9a8d5f90-00cd-4be3-8e8b-5b8cba77d9cb_en.png?fmt=webp&v=1&w=1920') center center/cover no-repeat;
+    width: 1070px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .cardWrap {
+    display: flex;
+    margin-top: 40px;
+    .cardItem {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-right: 10px;
+      border-radius: 20px;
+      .womanCloth1 {
+        border-radius: 10px;
+        width: 250px;
+        height: 250px;
+      }
+      &:hover {
+        transform: scale(0.9);
+      }
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.btnWrap {
+  text-align: center;
+  margin-top: 50px;
+  .viewBtn {
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #66CDAA;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.womanCloth2 {
+  @extend .womanCloth1;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  transition: 1s ease-in-out ;
+}
+
+.womanCloth3 {
+  @extend .womanCloth1;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  transition: 1s ease-in-out ;
+}
+
+.womanCloth4 {
+  @extend .womanCloth1;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  transition: 1s ease-in-out ;
+}
+
+.manCloth1 {
+  @extend .womanCloth1;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  transition: 1s ease-in-out ;
+}
+
+.manCloth2 {
+  @extend .womanCloth1;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  transition: 1s ease-in-out ;
+}
+
+.manCloth3 {
+  @extend .womanCloth1;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  transition: 1s ease-in-out ;
+}
+
+.manCloth4 {
+  @extend .womanCloth1;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  transition: 1s ease-in-out ;
+}
+
+

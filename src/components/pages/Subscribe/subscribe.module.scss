@@ -1,0 +1,47 @@
+.subscribeWrap {
+  display: flex;
+  background-color: cadetblue;
+  border-radius: 10px;
+  padding: 70px 40px;
+  margin-top: 100px;
+
+  .newsBlock {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+
+    .title {
+      font-weight: 600;
+    }
+
+    .paragraph {
+      font-size: 18px;
+      font-weight: 400;
+
+      .space {
+        display: block;
+      }
+    }
+  }
+
+  .subscribeBlock {
+    display: flex;
+    flex-direction: column;
+
+    .terms {
+      margin: 20px 0 10px;
+      font-size: 16px;
+    }
+
+    .link {
+      font-weight: 600;
+      color: darkslategrey;
+      margin-bottom: 20px;
+    }
+
+    .notRobotImg {
+      border-radius: 5px;
+    }
+  }
+}
+
