@@ -1,0 +1,11 @@
+$error-color:   #6b232d;
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  .text {
+    color: $error-color;
+  }
+}

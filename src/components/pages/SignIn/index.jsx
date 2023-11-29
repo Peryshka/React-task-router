@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './SignIN.module.css'
+import styles from './Signin.module.scss'
 
 const SignIn = () => {
   return(
@@ -7,7 +7,7 @@ const SignIn = () => {
       <h2 className={styles.title}>Sign In Form</h2>
       <label className={styles.labelWrap}>
         Enter your login:
-        <input type="text" className={styles.inp} />
+        <input type="text" className={styles.inp}/>
       </label>
       <label className={styles.labelWrap}>
         Enter your password:
@@ -16,7 +16,6 @@ const SignIn = () => {
       <div className={styles.btnWrap}>
         <button className={styles.btn}>Submit</button>
       </div>
-
     </div>
   )
 };

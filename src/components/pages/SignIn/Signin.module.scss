@@ -1,0 +1,49 @@
+$generalColor: #2d2f30;
+$fs: 40px;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 160px;
+
+  .title {
+    margin-bottom: 30px;
+    color: $generalColor;
+  }
+  .labelWrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: $generalColor;
+  }
+
+  .inp {
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+  }
+
+  .inp::placeholder {
+    outline: none;
+  }
+
+  .btnWrap {
+    text-align: center;
+  }
+
+  .btn {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: white;
+    font-weight: 500;
+  }
+}
+

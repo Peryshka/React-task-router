@@ -1,7 +1,7 @@
-import './App.css';
-import {Link, Outlet} from 'react-router-dom';
+import './App.module.scss';
+import {NavLink,Link, Outlet} from 'react-router-dom';
 import Home from "./components/pages/Home";
-import styles from './App.module.css';
+import styles from './App.module.scss';
 
 function App() {
   return (

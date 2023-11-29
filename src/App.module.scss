@@ -1,3 +1,7 @@
+@import "_colors.scss";
+
+$LinkColor : $secondary-color;
+
 .mainWrap {
   display: flex;
   flex-direction: column;
@@ -12,14 +16,15 @@
   list-style-type: none;
   justify-content: space-between;
   align-items: center;
+  .list {
+    margin-right: 20px;
+    text-decoration: none;
+    color: $LinkColor;
+  }
+  .link {
+    text-decoration: none;
+    color: $LinkColor;
+  }
 }
 
-.list {
-  margin-right: 20px;
-  text-decoration: none;
-}
 
-.link {
-  text-decoration: none;
-  color: black;
-}

@@ -1,0 +1,22 @@
+$fs : 40px;
+$textColor : #2e7e94;
+$pColor: #2d2f30;
+$textSize: 16px;
+
+.aboutWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: -100px;
+  .title {
+    color: $textColor;
+    font-size: $fs;
+  }
+  .paragraph {
+    margin-top: 30px;
+    color: $pColor;
+    font-size: $textSize;
+  }
+}
