@@ -8,7 +8,6 @@ $textSize: 16px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
   margin-left: -100px;
   .title {
     color: $textColor;
@@ -18,5 +17,23 @@ $textSize: 16px;
     margin-top: 30px;
     color: $pColor;
     font-size: $textSize;
+  }
+}
+
+.cardWrap {
+  margin: 40px 0;
+  .men {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxFgT72sC8lTTpHHrnQacxkvowf4WqSdIcbw&usqp=CAU') center center/contain no-repeat;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+  }
+
+  .children {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfGKNkViDlR1YWPiBo5aDmf17AorYr_UD2Ow&usqp=CAU') center center/contain no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
   }
 }
